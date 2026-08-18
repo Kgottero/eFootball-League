@@ -29,36 +29,36 @@ const leagueData = {
     A: {
       name: "Group 1",
       teams: [
-        { name: "Arsenal", logo: "🔴" },
-        { name: "Chelsea", logo: "🔵" },
-        { name: "Liverpool", logo: "🔴" }
+        { name: "Chelsea", logo: "" },
+        { name: "Liverpool", logo: "" },
+        { name: "Manchester City", logo: "🔴" }
       ]
     },
 
     B: {
       name: "Group 2",
       teams: [
-        { name: "Barcelona", logo: "🔵" },
-        { name: "Real Madrid", logo: "⚪" },
-        { name: "Atletico Madrid", logo: "🔴" }
+        { name: "Arsenal", logo: "" },
+        { name: "Brentford", logo: "" },
+        { name: "Manchester United", logo: "🔴" }
       ]
     },
 
     C: {
       name: "Group 3",
       teams: [
-        { name: "Bayern Munich", logo: "🔴" },
-        { name: "Dortmund", logo: "🟡" },
-        { name: "Leverkusen", logo: "🔴" }
+        { name: "Fulham", logo: "" },
+        { name: "Crystal Palace", logo: "" },
+        { name: "Tottenham", logo: "🔴" }
       ]
     },
 
     D: {
       name: "Group 4",
       teams: [
-        { name: "Inter Milan", logo: "🔵" },
-        { name: "AC Milan", logo: "🔴" },
-        { name: "Juventus", logo: "⚪" }
+        { name: "Brighton", logo: "" },
+        { name: "Newcastle United", logo: "" },
+        { name: "Aston Villa", logo: "🔴" }
       ]
     }
   },
@@ -72,9 +72,10 @@ const leagueData = {
     homeScore / awayScore: numbers
   */
   results: [
-    { group: "A", home: "Arsenal", away: "Chelsea", homeScore: 3, awayScore: 1 },
-    { group: "B", home: "Barcelona", away: "Atletico Madrid", homeScore: 4, awayScore: 0 },
-    { group: "C", home: "Bayern Munich", away: "Dortmund", homeScore: 2, awayScore: 2 },
-    { group: "D", home: "Inter Milan", away: "Juventus", homeScore: 1, awayScore: 0 }
+    { group: "A", home: "Chelsea", away: "Liverpool", homeScore: 0, awayScore: 0 },
+    { group: "C", home: "Crystal Palace", away: "Fulham", homeScore: 2, awayScore: 4 },
+    { group: "C", home: "Crystal Palace", away: "Tottenham", homeScore: 3, awayScore: 0 },
+    { group: "D", home: "Aston Villa", away: "Brighton", homeScore: 0, awayScore: 5 }
   ]
 };
+

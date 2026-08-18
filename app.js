@@ -73,7 +73,11 @@ function renderStandings() {
       <td class="position">${i + 1}</td>
       <td>
         <div class="team">
-          <span class="team-logo">${team.logo || "⚽"}</span>
+          <span class="team-logo">
+  ${team.logo
+    ? `<img src="${team.logo}" alt="${escapeHtml(team.name)} logo">`
+    : "⚽"}
+</span>
           ${escapeHtml(team.name)}
         </div>
       </td>
@@ -110,7 +114,14 @@ function renderLeaders() {
       return `
         <div class="leader">
           <div>
-            <div class="leader-name">${leader.logo || "⚽"} ${escapeHtml(leader.name)}</div>
+            <div class="leader-name">
+  <span class="team-logo">
+    ${leader.logo
+      ? `<img src="${leader.logo}" alt="${escapeHtml(leader.name)} logo">`
+      : "⚽"}
+  </span>
+  ${escapeHtml(leader.name)}
+</div>
             <div class="leader-meta">Group ${groupNumber(key)} · ${leader.played} played · ${leader.points} pts</div>
           </div>
           <div class="rank">#1</div>
@@ -155,3 +166,4 @@ function escapeHtml(value) {
 }
 
 render();
+

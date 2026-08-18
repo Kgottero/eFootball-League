@@ -29,36 +29,36 @@ const leagueData = {
     A: {
       name: "Group 1",
       teams: [
-        { name: "Chelsea", logo: "" },
-        { name: "Liverpool", logo: "" },
-        { name: "Manchester City", logo: "🔴" }
+        { name: "Chelsea", logo: "Images/Chelsea logo.png" },
+        { name: "Liverpool", logo: "Images/Liverpool logo.png" },
+        { name: "Manchester City", logo: "Images/manchester-city-logo-footylogos.png" }
       ]
     },
 
     B: {
       name: "Group 2",
       teams: [
-        { name: "Arsenal", logo: "" },
-        { name: "Brentford", logo: "" },
-        { name: "Manchester United", logo: "🔴" }
+        { name: "Arsenal", logo: "Images/arsenal-logo-footylogos.png" },
+        { name: "Brentford", logo: "Images/brentford-logo-footylogos.png" },
+        { name: "Manchester United", logo: "Images/Manchester United logo.png" }
       ]
     },
 
     C: {
       name: "Group 3",
       teams: [
-        { name: "Fulham", logo: "" },
-        { name: "Crystal Palace", logo: "" },
-        { name: "Tottenham", logo: "🔴" }
+        { name: "Fulham", logo: "Images/Fulham logo.png" },
+        { name: "Crystal Palace", logo: "Images/Crystal Palace logo.png" },
+        { name: "Tottenham", logo: "Images/Tottenham logo.png" }
       ]
     },
 
     D: {
       name: "Group 4",
       teams: [
-        { name: "Brighton", logo: "" },
-        { name: "Newcastle United", logo: "" },
-        { name: "Aston Villa", logo: "🔴" }
+        { name: "Brighton", logo: "Images/brighton-and-hove-albion-logo-footylogos.png" },
+        { name: "Newcastle United", logo: "Images/Newcastle United logo.png" },
+        { name: "Aston Villa", logo: "Images/aston-villa-logo-footylogos.png" }
       ]
     }
   },
@@ -77,3 +77,4 @@ const leagueData = {
     { group: "D", home: "Aston Villa", away: "Brighton", homeScore: 0, awayScore: 5 }
   ]
 };
+

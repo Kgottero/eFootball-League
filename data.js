@@ -74,7 +74,8 @@ const leagueData = {
   results: [
     { group: "C", home: "Crystal Palace", away: "Fulham", homeScore: 2, awayScore: 4 },
     { group: "C", home: "Crystal Palace", away: "Tottenham", homeScore: 3, awayScore: 0 },
-    { group: "D", home: "Aston Villa", away: "Brighton", homeScore: 0, awayScore: 5 }
+    { group: "D", home: "Aston Villa", away: "Brighton", homeScore: 0, awayScore: 5 },
+    { group: "B", home: "Arsenal", away: "Brentford", homeScore: 0, awayScore: 3 }
   ]
 };
 
